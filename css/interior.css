@@ -1,0 +1,156 @@
+@import url(http://db.onlinewebfonts.com/c/8914c48bb6cbcf51c389da71e776340d?family=BM+HANNA+11yrs+old);
+@font-face {font-family:'BM HANNA 11yrs old'; src: url(../assets/font/BM\ HANNA\ 11yrs\ old.ttf);}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body { height: 100%; width:100%;}
+body {background: #454545;}
+
+/* style header */
+header {
+    width: 100%;
+    height: 80px;
+    background: #000;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: Impact;
+}
+
+.logo {margin-top: 10px;}
+
+ul li {
+    display: inline;
+    margin-right: 30px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    color: #DE2626;
+    transition: .2s ease-in;
+}
+
+button {
+    background-color:#DE2626 ;
+    padding: 9px 28px;
+    margin-right: 50px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: Impact;
+    text-align: center;
+}
+
+/* main section */
+main {
+    min-height: 100vh;
+    
+}
+a {
+text-decoration: none;
+}
+
+h3 {color: white; width: 100%; clear: both; text-align: center; font-size: 30px; padding-top: 50px; font-family: impact;}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: BM\ HANNA\ 11yrs\ old;
+}
+
+.container :hover {
+    background-color: #454545;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card h2 {text-align: center;}
+
+.card a {color: #DE2626;}
+
+.card p {text-align: center;}
+
+.card-image {
+    height: 200px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-1 {background-image: url(../images/floriada-georgia-line-ablum.jpg);}
+.card-2 {background-image: url(../images/michael-buule-album.jpg);}
+.card-3 {background-image: url(../images/aurora.jpg);}
+.card-4 {background-image: url(../images/tomlinson-louis-album.jpg);}
+.card-5 {background-image: url(../images/beatles.jpg);}
+.card-6 {background-image: url(../images/downton.jpg);}
+.card-7 {background-image: url(../images/hunky-dory-ablum.jpg);}
+.card-8 {background-image: url(../images/marshall.jpg);}
+.card-9 {background-image: url(../images/bose-speaker.jpg); background-size: contain;}
+.card-10 {background-image: url(../images/bluetooth-formats.jpg); background-size: contain;}
+.card-11 {background-image: url(../images/music-qualites.jpg); background-size: contain;}
+.card-12 {background-image: url(../images/mqa-format.jpg); background-size: contain;}
+.card-13 {background-image: url(../images/spotify.jpg);}
+.card-14 {background-image: url(../images/apple-music.jpg);}
+.card-15 {background-image: url(../images/deezer-vs-sportify.jpg);}
+
+/* footer */
+
+footer {
+    position: relative;
+    display: flex;
+    background-color: #000;
+    color: white;
+    height: 200px;
+    flex-wrap: wrap;
+}
+
+footer form input {text-align: center;}
+
+footer form {position: absolute; margin-top: 140px; margin-left: 70px;}
+
+footer article {position: absolute; margin-top: 60px; margin-left: 300px;}
+
+footer p {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.f1 {width: 310px;height: 30px;} 
+
+#footer_logo {
+	display: block;
+	margin-top: 40px;
+	float: left;
+}
+
+#downlaoding{
+    display: inline;
+    margin-left: 1100px;
+
+  }
+  #downlaoding a{
+      display: inline-block;
+      margin: 0 10px;
+  }

@@ -1,0 +1,109 @@
+@import url(http://db.onlinewebfonts.com/c/8914c48bb6cbcf51c389da71e776340d?family=BM+HANNA+11yrs+old);
+@font-face {font-family:'BM HANNA 11yrs old'; src: url(../assets/font/BM\ HANNA\ 11yrs\ old.ttf);}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body { height: 100%; width:100%;}
+body {background: #454545;}
+
+/* style header */
+header {
+    width: 100%;
+    height: 80px;
+    background: #000;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: Impact;
+}
+
+.logo {
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+/* main section */
+
+main {
+    min-height: 100vh;
+}
+a {
+text-decoration: none;
+}
+
+h3 {color: white; width: 100%; clear: both; text-align: center; font-size: 30px; padding-top: 50px; font-family: impact;}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: BM\ HANNA\ 11yrs\ old;
+}
+
+.card h2 {text-align: center;}
+
+
+.card a {color: #DE2626;}
+
+.card p {text-align: center; }
+
+.card-image {
+    height: 200px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-1 {background-image: url(../images/floriada-georgia-line-ablum.jpg);}
+.card-2 {background-image: url(../images/michael-buule-album.jpg);}
+.card-3 {background-image: url(../images/aurora.jpg);}
+.card-4 {background-image: url(../images/tomlinson-louis-album.jpg);}
+.card-5 {background-image: url(../images/beatles.jpg);}
+.card-6 {background-image: url(../images/downton.jpg);}
+
+
+/* style footer */
+footer {
+    display: flex;
+    justify-content:space-between;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer p {position: absolute; margin-top: 120px; margin-left: 70px;}
+
+footer form {position: absolute; margin-top: 145px; margin-left: 70px;}
+footer form input {
+    text-align: center;
+}
+
+#footer_logo {
+	display: block;
+	margin-top: 30px;
+    margin-left: 30px;
+	float: left;
+}
+
+#downlaoding{
+    position: absolute;
+    display: inline;
+    margin-top: 200px;
+    margin-left: 60px;
+  }
+  #downlaoding a{
+      display: inline-block;
+      margin: 0 10px;
+  }

@@ -1,0 +1,18 @@
+<svg id="Ham_Menu" data-name="Ham Menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="75" viewBox="0 0 96 75">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="96" height="75" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Ham_Menu-2" data-name="Ham Menu" clip-path="url(#clip-path)">
+    <g transform="translate(-1794 259)">
+      <rect id="Ham_Menu-3" data-name="Ham Menu" width="96" height="16" transform="translate(1794 -259)" fill="#aaa"/>
+    </g>
+    <g transform="translate(-1794 285)">
+      <rect id="Ham_Menu-4" data-name="Ham Menu" width="96" height="16" transform="translate(1794 -259)" fill="#aaa"/>
+    </g>
+    <g transform="translate(-1794 311)">
+      <rect id="Ham_Menu-5" data-name="Ham Menu" width="96" height="16" transform="translate(1794 -259)" fill="#aaa"/>
+    </g>
+  </g>
+</svg>
